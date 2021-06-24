@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 
 
 int main(int argc, char *argv[]) {
 	float a;
 	printf ("Insert the numeric grade:");
-	scanf ("%f", &a );
+	fscanf (stdin, "%f", &a );
 	if (a<61) 
 		printf ("Your score is F");
 		else 
