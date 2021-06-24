@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 
 int main(int argc, char *argv[]) {
 	int q, d, n, p, t;
 	printf ("Insert the amount cents (less than $1.00):");
-	scanf("%i", &t);
+	fscanf(stdin, "%i", &t);
 	q= t/25;
 	t= t%25;
 	d= t/10;
