@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 
 int main(int argc, char *argv[]) {
 	float numbers[5];
 	int j, p=0, n=0;
 	printf("\nInput the first number: "); 
-    scanf("%f", &numbers[0]);
+    fscanf(stdin, "%f", &numbers[0]);
     printf("\nInput the second number: "); 
-    scanf("%f", &numbers[1]);
+    fscanf(stdin, "%f", &numbers[1]);
     printf("\nInput the third number: "); 
-    scanf("%f", &numbers[2]);
+    fscanf(stdin, "%f", &numbers[2]);
 	printf("\nInput the fourth number: "); 
-    scanf("%f", &numbers[3]);
+    fscanf(stdin, "%f", &numbers[3]);
     printf("\nInput the fifth number: "); 
-    scanf("%f", &numbers[4]);
+    fscanf(stdin, "%f", &numbers[4]);
 	for(j = 0; j < 5; j++) {
 		if(numbers[j] > 0)
 		{
