@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 
 int main(int argc, char *argv[]) {
 	/* Variables you will use in the program*/
@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
     do
     {
         printf("Number: \n");
-        scanf(" %d",&num);
+        fscanf(stdin, "%d",&num);
        prim=0;
 div=2;
             while(div<num  && prim!=1)
